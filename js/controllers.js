@@ -23,6 +23,9 @@ geekoApp.controller('GeekoController', function ($rootScope,$scope,$location, $h
 			    $rootScope.userData = authData.google.cachedUserProfile;	  
 			  }				
 			});
+		},{
+			remember: "sessionOnly",
+			scope: "email"
 		});
 	};
 
@@ -33,12 +36,13 @@ geekoApp.controller('GeekoController', function ($rootScope,$scope,$location, $h
 			  if (error) {
 			    console.log("Login Failed!", error);
 			  } else {
-			    $location.path("/admin-home"); 			    
+			    $location.path("/admin-home"); 			
+			    debugger;    
 			    $rootScope.userData = authData.facebook.cachedUserProfile;	    
 			  }	
 			});
 		},{
-			scope: "email,user_likes"			
+			scope: "email,user_likes,user_friends"			
 		});      
 	}	
 });
