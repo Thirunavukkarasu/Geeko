@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-offset-3 col-md-5">
+			<div class="panel panel-primary">
+			      <div class="panel-heading"><h3 class="panel-title">Login Into Your Account</h3></div>	
+				  <div class="panel-body">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Username or Email address</label>
+					    <input type="email" class="form-control" id="username" placeholder="Enter email">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Password (<a href="#/forgot-password">forgot Password</a>)</label>
+					    <input type="password" class="form-control" id="password" placeholder="Password">
+					  </div>
+					  <button type="submit" class="btn btn-default" ng-click="onClickSignin()">Sign in</button>
+					</form>
+					<div class="social-btn-groups">
+					  <p style="text-align:center;font-weight:bold;">Or</p>
+					  <button class="btn btn-danger btn-lg btn-block" ng-click="onClickSigninWithGoogle()"><span class="fa fa-google-plus"></span> Login with Google</button>
+					  <button class="btn btn-primary btn-lg btn-block" ng-click="onClickSigninWithFacebook()"><span class="fa fa-facebook"></span> Login with Facebook</button>
+					  <button class="btn btn-success btn-lg btn-block" ng-click="onClickSigninWithTwitter()"><span class="fa fa-twitter"></span> Login with Twitter</button>						  				  								  
+					</div>
+				  </div>
+			</div>	
+		</div>	
+	</div>
+</div>

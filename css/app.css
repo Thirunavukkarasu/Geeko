@@ -1,0 +1,136 @@
+
+/* Header - Navbar */
+
+.navbar-brand {
+    font-family: 'Marker Felt';  
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pull-right {
+    padding-top: 8px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #333;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #4183c4;
+}
+
+/* Footer */
+
+.footer{
+	padding: 20px;
+}
+
+.footer-list{
+	list-style  : none;
+}
+
+.footer-list li,.footer-list a{
+	float : left;
+	font-size: 13px;
+	margin-right: 7px;
+}
+
+/* Forms */
+.signin-form .form-header{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.signin-form label{
+	font-size: 13px;
+}
+
+.signin-form .note{
+  min-height: 17px;
+  margin: 4px 0 2px;
+  font-size: 12px;
+  color: #777;
+}
+
+.signin-form .tos-info{
+	padding: 15px 0;
+	margin: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.social-btn-groups{
+  margin:10px 0;
+  border-top : 1px solid #eee;
+  border-bottom : 1px solid #eee;
+}
+/* Signup form */
+
+.steps {
+  width: 100%;
+  display: table;
+  margin: 30px auto 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.steps li {
+  display: table-cell;
+  width: 33.3%;
+  padding: 10px 15px;
+  color: #ccc;
+  cursor: default;
+  border-left: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.steps li .step {
+  display: block;
+}
+
+.steps li .mega-octicon {
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+
+.steps li.current .mega-octicon {
+  color: #4183c4;
+}
+
+.mega-octicon {
+  font-size: 32px;
+}
+
+.steps li.current {
+	background-color: #fff;
+	color: #000;
+}
+
+.list .list-divider {
+  margin: 15px -15px;
+  border-top: 1px solid #eee;
+}
+
+.list{
+	list-style: none;
+	margin-left:-35px;
+}
+
+/* Icons */
+
+.fa-check{
+	color: green;
+}
+
+.avatar{
+  border-radius: 3px;
+  width: 90%;
+}
